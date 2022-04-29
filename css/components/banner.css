@@ -1,0 +1,38 @@
+
+.banner {
+    /* 1. Set a background image */
+  
+    height : 600px;
+  
+    background-image:
+    /* Transparent gradient above */
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+    /* Then image below */
+    url('rise3.jpg');
+    
+    /* 2. Make the background image cover the banner div */
+      background-size: cover;     
+    /* 3. Center the image */
+      background-position: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 50px;
+  }
+  .banner h2 {
+    color: #016064;
+    font-size: 30px;
+    font-weight: lighter;
+      opacity: 0.8;
+  }
+
+  .hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    }
